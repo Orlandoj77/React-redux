@@ -3,7 +3,7 @@ import react, { Component } from 'react'
 export default class sidebar extends Component {
 //listagem de módulos 
     state ={
-        module:[
+        modules:[
             {id:1, title: 'Iniciando com React' ,lessons: [
             {id:1, title: 'Primeira aula'},
             {  id:2, title: 'segunda aula' },
